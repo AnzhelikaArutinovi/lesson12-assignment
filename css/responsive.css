@@ -10,6 +10,32 @@
     .btn-contact {
         padding: 10px 10px;
     }
+    /* Second Section elements styles */
+    .text-wraper02 {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    /* Footer elements styles */
+    .head-div {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .columns-wraper {
+        row-gap: 25px;
+        max-width: 580.5px;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .column {
+        width: 49%;
+    }
+    .footer-flex {
+        align-items: center;
+        gap: 30px;
+    }
+    .column:nth-child(4) {
+        display: none;
+    }
 }
 @media (max-width: 1166px) {
     /* Header elements responsive */
@@ -39,13 +65,44 @@
     /* First Section elements styles */
     .section-wraper01 {
         padding-left: 20px;
+        padding-top: 100px;
     }
+      /* Second Section elements styles */
+      .text-wraper02 {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .nav02 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+      }
+      .nav-ul02 {
+        row-gap: 20px;
+      }
+      .block {
+        height: 350px;
+      }
+      /* Footer elements styles */
+      .subscribe-block {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+      }
+      .columns-wraper {
+        flex-direction: column;
+        width: 270px;
+      }
+      .column:nth-child(1), .column:nth-child(2), .column:nth-child(3) {
+        width: 100%;
+      }
+
 }
 @media (max-width: 623px) {
     /* First Section elements styles */
     .section-wraper01 {
         height: auto;
-        padding-bottom: 15px;;
+        padding-bottom: 25px;
     }
     .content-wraper01 {
         max-width: 500px;
@@ -64,7 +121,25 @@
     .buttons-wraper01 {
         width: 100%;
     }
-
+    /* Second section elements styles */
+    .text-wraper02 > h2 {
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+    .nav02 {
+        width: 250px;
+    }
+    .photos-block {
+        flex-direction: column;
+        row-gap: 25px;
+        margin: 0 auto;
+    }
+    .block {
+        height: 250px;
+        width: 100%;
+      }
 }
 @media (max-width: 410px) {
     /* Header elements responsive */
