@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <header>
         <div class="header-wraper header-flex">
+            <div class="burger-wraper">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <img src="images/orange-logo.svg" alt="orange-logo">
             <nav class="navigation">
                 <ul class="nav-ul">
@@ -139,7 +143,7 @@
                                 <input type="text" id="name" name="myname" placeholder="Name" required>
                                 <input type="email" id="email" name="myemail" placeholder="Email" required>
                                 <input type="tel" id="phone" name="mytel" placeholder="Phone" required>
-                                <select class="input-service" name="myservice" id="service" required>
+                                <select class="input-service" name="myservice" id="service">
                                     <option value="none" selected disabled hidden>Select Your Service</option>
                                     <option value="construction">Construction</option>
                                     <option value="architecture">Architecture</option>
@@ -166,7 +170,7 @@
                                                 <a href="tel:(+62)87724697246">(+62) 877-2469-7246</a>
                                             </li>
                                             <li class="contact-li">Email : 
-                                                <a href="mailto:mail@gmail.com?subject=New%email">contact@jhontraktor.co</a>                                            
+                                                <a href="mailto:mail@gmail.com">contact@jhontraktor.co</a>                                            
                                             </li>
                                         </ul>                                    
                                     </div>
@@ -184,11 +188,65 @@
                 </div>
             </div>
         </section>
-
-
     </main>
-
     <footer>
+        <div class="footer-wraper footer-flex">
+            <div class="head-div">
+                <img src="images/white-logo.svg" alt="white-logo">
+                <div class="subscribe-block">
+                    <h4>Subscribe To Our Newslatter :</h4>
+                    <form class="email-block" action="#">
+                        <input type="email" id="email-subscription" name="myemail" placeholder="Enter your email addres">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="columns-wraper">
+                <div class="column">
+                    <h5>About Us</h5>
+                    <p>We have the confidence to provide the best service for you, with the support of Professional and Certified HR that we currently have and the high-quality materials we use and structured work techniques, we will be able to realize timely completion of work.</p>
+                </div>
+                <div class="column">
+                    <h5>Office</h5>
+                    <p>18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</p>
+                </div>
+                <div class="column">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li class="contact-li-col">Email : 
+                            <a href="mailto:mail@gmail.com">contact@jhontraktor.co</a>                                            
+                        </li>
+                        <li class="contact-li-col">Call Us : 
+                            <a href="tel:(+62)87724697246">(+62) 877-2469-7246</a>
+                        </li>
+                    </ul>    
+                </div>
+                <div class="column">
+                    <h5>Link</h5>
+                    <ul class="nav-ul-col">
+                        <li class="nav-li-col">
+                            <a class="nav-a-col" href="#">Home</a>
+                        </li> 
+                        <li class="nav-li-col">
+                            <a class="nav-a-col" href="#">About US</a>
+                        </li>
+                        <li class="nav-li-col">
+                            <a class="nav-a-col" href="#">Service</a>
+                        </li>
+                        <li class="nav-li-col">
+                            <a class="nav-a-col" href="#">Project</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-div">
+                <img src="images/linkedin.svg" alt="linkedin-logo">
+                <img src="images/github.svg" alt="github-logo">
+                <img src="images/instagram.svg" alt="instagram-logo">
+                <img src="images/twitter.svg" alt="twitter-logo">
+                <img src="images/facebook.svg" alt="facebook-logo">
+            </div>
+        </div>
 
     </footer>
 </body>

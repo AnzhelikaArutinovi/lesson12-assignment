@@ -1,0 +1,74 @@
+@media (max-width: 1508px) {
+    /* Header elements responsive */
+    .lang-div > p, .btn-contact {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .btn-contact, .lang-div {
+        width: 140px;
+    }
+    .btn-contact {
+        padding: 10px 10px;
+    }
+}
+@media (max-width: 1166px) {
+    /* Header elements responsive */
+    .burger-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation {
+        display: none;
+    }
+    .header-wraper {
+        width: 80%;
+    }
+    .container-wraper {
+        width: 30%;
+    }
+}
+@media (max-width: 887px) {
+    /* Header elements responsive */
+    .container-wraper {
+        display: none;
+    }
+    .header-wraper > img {
+        width: 200px;
+    }
+    /* First Section elements styles */
+    .section-wraper01 {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 623px) {
+    /* First Section elements styles */
+    .section-wraper01 {
+        height: auto;
+        padding-bottom: 15px;;
+    }
+    .content-wraper01 {
+        max-width: 500px;
+        width: 95%;
+    }
+    .text-wraper01 > h2 {
+        line-height: 50px;
+        font-size: 45px;
+    }
+    .btn-services, .btn-projects {
+        width: 45%;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 5px;
+    }
+    .buttons-wraper01 {
+        width: 100%;
+    }
+
+}
+@media (max-width: 410px) {
+    /* Header elements responsive */
+    .header-wraper {
+        width: 90%;
+    }
+}
