@@ -53,6 +53,24 @@
     .container-wraper {
         width: 30%;
     }
+    /* Fourth section elements styles */
+    .forms-wraper {
+    flex-direction: column;
+    row-gap: 25px;
+    }
+    .request-form-wraper, .contact-form-wraper {
+    width: 95%;
+    }
+    .request-form > input, .input-service {
+    width: 100%;
+    } 
+    .request-form > input, .area-details, .input-service {
+        padding-left: 20px;
+    }
+    .main-block-wraper > h3 {
+    font-size: 40px;
+    line-height: 42px;
+    }
 }
 @media (max-width: 887px) {
     /* Header elements responsive */
@@ -88,6 +106,7 @@
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
+        width: 95%;
       }
       .columns-wraper {
         flex-direction: column;
@@ -145,5 +164,9 @@
     /* Header elements responsive */
     .header-wraper {
         width: 90%;
+    }
+    /* Footer elements styles */
+    .subscribe-block > h4 {
+        font-size: 16px;
     }
 }

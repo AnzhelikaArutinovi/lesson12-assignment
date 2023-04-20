@@ -354,6 +354,7 @@ span {
     font-weight: 600;
     line-height: 96px;
     color: rgba(255, 255, 255, 1);
+    text-align: center;
 }
 .forms-wraper {
     max-width: 1503px;
